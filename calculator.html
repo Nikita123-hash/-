@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="CSS/calculator.css">
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+<script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+  </head>
+  <body>
+<h1><b>На игральных кубиках выпали значения: </b></h1>
+    <py-script>
+      import random
+      a = random.randint(1, 6)
+      b = random.randint(1, 6)
+      print("На первом кубике выпало: ", a)
+      print("На втором кубике выпало: ", b)
+      print("Ваш результат: ", a + b)
+    </py-script>
+    <br>
+    <a class="возврат" href="C:\Users\Aleksei\Desktop\index\HTML\проект.html">Вернуться к путиводителю</a>
+    <br>
+  </body>
+</html>
